@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<script src="glow.js"></script>
+
+<style type="text/css">
+	#glow-example {
+		background: #fff;
+	}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+
+	<div id="glow-example" >Hello</div>
+
+</div>
+</body>
+
+<script type="text/javascript">
+	
+	glow.setDiv("glow-example");
+	glow.setGlowColour('rgb(0, 255, 0)');
+	glow.setGlowRate(40);
+	glow.setType('background');
+
+	glow.fire();
+
+</script>
+</html>
